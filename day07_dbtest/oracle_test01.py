@@ -7,7 +7,6 @@ cursor.execute('select * from emp where deptno = 10')
 
 # print(cursor)
 
-
 for item in cursor:
     print(item[1], item[5])
 
